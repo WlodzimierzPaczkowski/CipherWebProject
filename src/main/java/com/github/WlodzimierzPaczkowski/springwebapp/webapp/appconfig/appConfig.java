@@ -1,5 +1,5 @@
 
-
+/*
 
 package com.github.WlodzimierzPaczkowski.springwebapp.webapp.appconfig;// package com.github.WlodzimierzPaczkowski.springwebapp.webapp.appconfig;
 
@@ -19,3 +19,4 @@ public class appConfig {
         return new PropertySourcesPlaceholderConfigurer();
     }
 }
+*/
