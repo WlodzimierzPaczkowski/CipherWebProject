@@ -4,12 +4,12 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
-public class backendLogic {
-    private static int  number;
+public class SomeNumber {
+    private static int number;
 
-    @Value("3")
+    @Value("${NumberForSomeNumber}")
     public void setNumber(int number) {
-        this.number = number;
+        SomeNumber.number = number;
     }
 
     public static int getNumber() {

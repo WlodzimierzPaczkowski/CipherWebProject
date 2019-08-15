@@ -18,13 +18,11 @@ public class CipherModel {
         return decipherDifficulty;
     }
 
-    @Value("Cesar")
-    public void setCipherName(String cipherName) {
-        this.cipherName = cipherName;
-    }
-    @Value("Easy")
+    @Value("${CipherType}")
+    public void setCipherName(String cipherName) { CipherModel.cipherName = cipherName;}
+    @Value("${CipherBreakDifficulty}")
     public void setDecipherDifficulty(String decipherDifficulty) {
-        this.decipherDifficulty = decipherDifficulty;
+        CipherModel.decipherDifficulty = decipherDifficulty;
     }
 
 
