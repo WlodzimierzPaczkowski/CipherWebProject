@@ -1,6 +1,3 @@
-README status WIP
-
-
 ======
 Spring website project
 ======
@@ -10,13 +7,13 @@ Main idea of this project is to learn how to make backend of web app in spring, 
 
 Right now there are two views, that just show html web with injected value with @Value()
 
-TODO DONE make all injected value in application.resource
+TODO DONE ``make all injected value in application.resource``
 
-TODO add cesar cipher class
+TODO ``add cesar cipher class``
 
-TODO learn more of java, spring, crypthography
+TODO ``learn more of java, spring, crypthography``
 
-TODO format READ.ME
+TODO ``format READ.ME``
 
 
 ======
