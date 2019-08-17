@@ -1,5 +1,5 @@
 README status WIP
-
+Latest version on work in progress branch
 
 ======
 Spring website project
